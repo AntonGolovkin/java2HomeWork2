@@ -10,7 +10,7 @@ public class MainApp {
                 int result = method(arr);
                 System.out.println(result);
             } catch (MyArraySizeException e) {
-               
+                System.out.println("Некорректный размер массива!");
             }
         }
         catch (MyArrayDataException e) {
